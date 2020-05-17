@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+
+<head>
+
+
+
+  
+  
+    <!-- #####START###NANOGALLERY##REQ######################################################################################################## -->
+    <!-- jQuery                                                                                                               -->
+    <script type="text/javascript" src="nanoGALLERY-5.9.1/third.party/jquery-1.7.1.min.js"></script>
+    <!-- nanoGALLERY CSS files                                                                                                -->
+    <!-- only include the css file corresponding to the selected theme                                                        -->
+    <!-- include 'nanogallery.css' if no theme is specified                                                                   -->
+    <!-- nanoGALLERY - default theme css file                                                                                 -->
+    <link href="nanoGALLERY-5.9.1/css/nanogallery.css" rel="stylesheet" type="text/css">
+    
+    <!-- nanoGALLERY javascript                                                                                               -->
+    <script type="text/javascript" src="nanoGALLERY-5.9.1/jquery.nanogallery.js"></script>
+
+    <script>
+		$(document).ready(function () {
+    
+
+		jQuery("#nanoGallery").nanoGallery({thumbnailWidth:160,thumbnailHeight:160,
+				itemsBaseURL:'images',
+				thumbnailHoverEffect:[{'name':'scaleLabelOverImage','duration':300},{'name':'borderLighter'}],				
+				colorScheme:'clean',
+                locationHash: false,
+				thumbnailLabel:{display:true,position:'overImageOnTop', align:'center'},
+                viewerDisplayLogo:true
+			});
+		});
+    </script>
+    <!-- #####END###NANOGALLERY##REQ######################################################################################################## -->
+</head>
+
+<body>
+
+
+  
+	<div id="nanoGallery">
+		<a href="tricia.jpg" data-ngthumb="tricia.jpg" data-ngdesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet interdum magna. Nunc luctus leo ut blandit tempor. Suspendisse at auctor lorem, sed hendrerit arcu.">Thailand</a>
+	</div>
+
+	
+
+</body>
+</html>

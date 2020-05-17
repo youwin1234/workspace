@@ -1,0 +1,92 @@
+h1{ 
+  text-align: center; 
+}
+body {
+  margin: 0;
+  padding-top: 400px;
+  font-family: 'Noto Serif', serif;
+}
+
+header {
+  height: 400px;
+  background-image:url(WebsiteImg/p1.jpg);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Lobster', cursive;
+}
+
+.box,
+.main {
+  position: relative; 
+}
+.box {
+  background: #fff;
+  height: 100px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  display: flex;
+    justify-content:center;
+    align-items:center;
+}
+header,
+.box-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.main {
+  background: #f2f2e8;
+  padding: 110px 50px 50px;
+}
+.click{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display:block;
+    padding: 5px 5px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+}
+.click:hover {
+    background-color: black;
+    color:white;
+    border-style:dashed;
+    border-width: 2px;
+    border-color:black;
+}
+
+.click2{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    display:block;
+    padding: 10px 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.click2:hover {
+    background-color: black;
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+}
+
+.footer1{ 
+    background-color: #f2f2e8;
+   text-align:center;
+   margin-top:50px; 
+   width: 100%;
+   height:60px;
+   
+}
+
+#foot{
+  padding-top: 25px;
+  
+}
